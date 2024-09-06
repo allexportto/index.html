@@ -1,0 +1,214 @@
+OCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Simples</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhEb-1nCKwnMjv3_jp6566LYED37_JnkUlkw&s" style="width: 230C:\Users\Vinicius\.vscode\extensions\index.htmlC:\Users\Vinicius\.vscode\extensions\index.htmlvC:\Users\Vinicius\.vscode\extensions\index.htmlpx; height: 230px;" alt="logo">
+      </div>
+      <h1>Receitas Simples</h1>
+      <nav class="navbar">
+            <form action="#" name="search-bar" method="get">
+              <input type="text" name="search-bar" id="search-bar" placeholder="Buscar receitas..."/>
+              <button type="submit">Buscar</button><br>
+              <br>
+            </form>
+            <a href="user-icon.html" class="user-icon-btn">
+              <div class="user-icon">
+              <img src="https://icons.iconarchive.com/icons/fa-team/fontawesome/256/FontAwesome-Circle-User-icon.png" style="width: 32px; height: 32px;" alt="user-icon"><br>
+            </a>
+            <a href="adicionar.html" class="adicionar-btn">Adicionar novas receitas</a><br>
+            <div class="categorias">
+              <a href="carnes.html" class="carnes-btn">CARNES</a>
+              <a href="bolos_tortas.html" class="bolostortas-btn">BOLOS E TORTAS</a>
+              <a href="aves.html" class="aves-btn">AVES</a>
+              <a href="peixes_fdomar.html" class="peixesfdomar-btn">PEIXES E FRUTOS DO MAR</a>
+              <a href="docesobremesas.html" class="docesobremesas-btn">DOCES E SOBREMESAS</a>
+              <a href="todasreceitas.html" class="todasreceitas-btn">TODAS AS RECEITAS</a>
+            </div>
+      </nav>
+    </header>
+    <main>     
+     <h2>Receita em destaque</h2>
+     <h1>Bolo de Chocolate com Morango</h1>
+
+     <div class="image-header">
+         <img src="https://www.estadao.com.br/resizer/oFDrDp3xgfze9zuyNaR5gnyURVA=/arc-anglerfish-arc2-prod-estadao/public/FIVYQFU6J5ND3PYRA6XQHR4NW4.jpg" style="width: 1000px; height: 600px; display: block; margin: auto;" alt="Foto da Receita">
+     </div>
+ 
+     <div class="ingredientes">
+         <h2>Ingredientes</h2>
+         
+         <h3>Massa de Chocolate (Sem Leite e Sem Manteiga)</h3>
+         <ul>
+             <li>2 xícaras de chá de farinha de trigo</li>
+             <li>2 xícaras de chá de açúcar</li>
+             <li>1 xícara de chá de chocolate em pó</li>
+             <li>1 colher (sopa) de fermento em pó</li>
+             <li>4 ovos</li>
+             <li>1 xícara de chá de óleo</li>
+             <li>1 xícara de chá de água quente</li>
+         </ul>
+ 
+         <h3>Brigadeiro Mole</h3>
+         <ul>
+             <li>1 lata de leite condensado</li>
+             <li>1 colher (sopa) de chocolate em pó</li>
+             <li>1 colher (sopa) bem caprichada de manteiga</li>
+             <li>1 colher (chá) de mel</li>
+         </ul>
+ 
+         <h3>Montagem</h3>
+         <ul>
+             <li>Massa</li>
+             <li>Brigadeiro preparado</li>
+             <li>2 caixinhas de morango</li>
+             <li>Granulado belga ao leite</li>
+         </ul>
+     </div>
+ 
+     <div class="modo-de-preparo">
+         <h2>Modo de Preparo</h2>
+ 
+         <h3>Massa de Chocolate (Sem Leite e Sem Manteiga)</h3>
+         <ol>
+             <li>Misture a farinha de trigo, o açúcar, o chocolate e o fermento em um recipiente.</li>
+             <li>Adicione os ovos e o óleo aos poucos e misture até ficar homogêneo.</li>
+             <li>Bata a mistura com um fouet (batedor de arame).</li>
+             <li>Coloque a massa em uma forma untada.</li>
+             <li>Leve ao forno preaquecido a 180°C por 40 minutos.</li>
+         </ol>
+ 
+         <h3>Recheio</h3>
+         <ol>
+             <li>Misture todos os ingredientes do brigadeiro em uma panela funda.</li>
+             <li>Leve ao fogo e mexa constantemente até atingir o ponto de brigadeiro mole.</li>
+         </ol>
+ 
+         <h3>Montagem</h3>
+         <ol>
+             <li>Pique alguns dos morangos.</li>
+             <li>Corte a massa em três camadas.</li>
+             <li>Recheie cada camada com o brigadeiro e os morangos picados.</li>
+             <li>Espalhe o brigadeiro por todo o bolo e cubra com granulado belga ao leite.</li>
+             <li>Enfeite a parte superior do bolo com os morangos inteiros.</li>
+         </ol>
+     </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Receitas Simples</p>
+    </footer>
+  </body>
+</html>
+
+
+OCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Simples</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhEb-1nCKwnMjv3_jp6566LYED37_JnkUlkw&s" style="width: 230C:\Users\Vinicius\.vscode\extensions\index.htmlC:\Users\Vinicius\.vscode\extensions\index.htmlvC:\Users\Vinicius\.vscode\extensions\index.htmlpx; height: 230px;" alt="logo">
+      </div>
+      <h1>Receitas Simples</h1>
+      <nav class="navbar">
+            <form action="#" name="search-bar" method="get">
+              <input type="text" name="search-bar" id="search-bar" placeholder="Buscar receitas..."/>
+              <button type="submit">Buscar</button><br>
+              <br>
+            </form>
+            <a href="user-icon.html" class="user-icon-btn">
+              <div class="user-icon">
+              <img src="https://icons.iconarchive.com/icons/fa-team/fontawesome/256/FontAwesome-Circle-User-icon.png" style="width: 32px; height: 32px;" alt="user-icon"><br>
+            </a>
+            <a href="adicionar.html" class="adicionar-btn">Adicionar novas receitas</a><br>
+            <div class="categorias">
+              <a href="carnes.html" class="carnes-btn">CARNES</a>
+              <a href="bolos_tortas.html" class="bolostortas-btn">BOLOS E TORTAS</a>
+              <a href="aves.html" class="aves-btn">AVES</a>
+              <a href="peixes_fdomar.html" class="peixesfdomar-btn">PEIXES E FRUTOS DO MAR</a>
+              <a href="docesobremesas.html" class="docesobremesas-btn">DOCES E SOBREMESAS</a>
+              <a href="todasreceitas.html" class="todasreceitas-btn">TODAS AS RECEITAS</a>
+            </div>
+      </nav>
+    </header>
+    <main>     
+     <h2>Receita em destaque</h2>
+     <h1>Bolo de Chocolate com Morango</h1>
+
+     <div class="image-header">
+         <img src="https://www.estadao.com.br/resizer/oFDrDp3xgfze9zuyNaR5gnyURVA=/arc-anglerfish-arc2-prod-estadao/public/FIVYQFU6J5ND3PYRA6XQHR4NW4.jpg" style="width: 1000px; height: 600px; display: block; margin: auto;" alt="Foto da Receita">
+     </div>
+ 
+     <div class="ingredientes">
+         <h2>Ingredientes</h2>
+         
+         <h3>Massa de Chocolate (Sem Leite e Sem Manteiga)</h3>
+         <ul>
+             <li>2 xícaras de chá de farinha de trigo</li>
+             <li>2 xícaras de chá de açúcar</li>
+             <li>1 xícara de chá de chocolate em pó</li>
+             <li>1 colher (sopa) de fermento em pó</li>
+             <li>4 ovos</li>
+             <li>1 xícara de chá de óleo</li>
+             <li>1 xícara de chá de água quente</li>
+         </ul>
+ 
+         <h3>Brigadeiro Mole</h3>
+         <ul>
+             <li>1 lata de leite condensado</li>
+             <li>1 colher (sopa) de chocolate em pó</li>
+             <li>1 colher (sopa) bem caprichada de manteiga</li>
+             <li>1 colher (chá) de mel</li>
+         </ul>
+ 
+         <h3>Montagem</h3>
+         <ul>
+             <li>Massa</li>
+             <li>Brigadeiro preparado</li>
+             <li>2 caixinhas de morango</li>
+             <li>Granulado belga ao leite</li>
+         </ul>
+     </div>
+ 
+     <div class="modo-de-preparo">
+         <h2>Modo de Preparo</h2>
+ 
+         <h3>Massa de Chocolate (Sem Leite e Sem Manteiga)</h3>
+         <ol>
+             <li>Misture a farinha de trigo, o açúcar, o chocolate e o fermento em um recipiente.</li>
+             <li>Adicione os ovos e o óleo aos poucos e misture até ficar homogêneo.</li>
+             <li>Bata a mistura com um fouet (batedor de arame).</li>
+             <li>Coloque a massa em uma forma untada.</li>
+             <li>Leve ao forno preaquecido a 180°C por 40 minutos.</li>
+         </ol>
+ 
+         <h3>Recheio</h3>
+         <ol>
+             <li>Misture todos os ingredientes do brigadeiro em uma panela funda.</li>
+             <li>Leve ao fogo e mexa constantemente até atingir o ponto de brigadeiro mole.</li>
+         </ol>
+ 
+         <h3>Montagem</h3>
+         <ol>
+             <li>Pique alguns dos morangos.</li>
+             <li>Corte a massa em três camadas.</li>
+             <li>Recheie cada camada com o brigadeiro e os morangos picados.</li>
+             <li>Espalhe o brigadeiro por todo o bolo e cubra com granulado belga ao leite.</li>
+             <li>Enfeite a parte superior do bolo com os morangos inteiros.</li>
+         </ol>
+     </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Receitas Simples</p>
+    </footer>
+  </body>
+</html>
