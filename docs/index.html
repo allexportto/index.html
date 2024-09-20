@@ -1,138 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Receitas Simples</title>
+    <link rel="stylesheet"  href="homepage.css">
   </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhEb-1nCKwnMjv3_jp6566LYED37_JnkUlkw&s" style="width: 230C:\Users\Vinicius\.vscode\extensions\index.htmlC:\Users\Vinicius\.vscode\extensions\index.htmlvC:\Users\Vinicius\.vscode\extensions\index.htmlpx; height: 230px;" alt="logo">
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhEb-1nCKwnMjv3_jp6566LYED37_JnkUlkw&s" alt="logo">
+    </div>
+    <nav class="navbar">
+      <div class="menu-categorias">
+        <a href="carnes.html" class="categoria-btn">Carnes</a>
+        <a href="bolos.html" class="categoria-btn">Bolos e Tortas</a>
+        <a href="aves.html" class="categoria-btn">Aves</a>
+        <a href="peixes.html" class="categoria-btn">Peixes e Frutos do Mar</a>
+        <a href="docesobremesas.html" class="categoria-btn">Doces e Sobremesas</a>
       </div>
-      <h1>Receitas Simples</h1>
-      <nav class="navbar">
-            <form action="#" name="search-bar" method="get">
-              <input type="text" name="search-bar" id="search-bar" placeholder="Buscar receitas..."/>
-              <button type="submit">Buscar</button><br>
-              <br>
-            </form>
-            <a href="user-icon.html" class="user-icon-btn">
-              <div class="user-icon">
-              <img src="https://icons.iconarchive.com/icons/fa-team/fontawesome/256/FontAwesome-Circle-User-icon.png" style="width: 32px; height: 32px;" alt="user-icon"><br>
-            </a>
-            <a href="adicionar.html" class="adicionar-btn">Adicionar novas receitas</a><br>
-            <div class="categorias">
-              <a href="carnes.html" class="carnes-btn">CARNES</a>
-              <a href="bolos_tortas.html" class="bolostortas-btn">BOLOS E TORTAS</a>
-              <a href="aves.html" class="aves-btn">AVES</a>
-              <a href="peixes_fdomar.html" class="peixesfdomar-btn">PEIXES E FRUTOS DO MAR</a>
-              <a href="docesobremesas.html" class="docesobremesas-btn">DOCES E SOBREMESAS</a>
-              <a href="todasreceitas.html" class="todasreceitas-btn">TODAS AS RECEITAS</a>
-            </div>
-      </nav>
-    </header>
-    <main>     
-     <h2>Receita em destaque</h2>
-     <h1>Bolo de Chocolate com Morango</h1>
+      <form action="#" class="search-form" method="get">
+        <input type="text" name="search-bar" id="search-bar" placeholder="Buscar receitas..." />
+        <button type="submit">Buscar</button>
+      </form>
+    </nav>
+    <a href="adicionar.html" class="adicionar-btn">Adicionar novas receitas</a>
+      <div class="user-icon">
+        <a href="user-icon.html">
+          <img src="https://icons.iconarchive.com/icons/fa-team/fontawesome/256/FontAwesome-Circle-User-icon.png" alt="user-icon">
+        </a>
+      </div>
+    </nav>
+  </header>
+  <hr>
 
-     <div class="image-header">
-         <img src="https://www.estadao.com.br/resizer/oFDrDp3xgfze9zuyNaR5gnyURVA=/arc-anglerfish-arc2-prod-estadao/public/FIVYQFU6J5ND3PYRA6XQHR4NW4.jpg" style="width: 1000px; height: 600px; display: block; margin: auto;" alt="Foto da Receita">
-     </div>
- 
-     <div class="ingredientes">
-         <h2>Ingredientes</h2>
-         
-         <h3>Massa de Chocolate (Sem Leite e Sem Manteiga)</h3>
-         <ul>
-             <li>2 xícaras de chá de farinha de trigo</li>
-             <li>2 xícaras de chá de açúcar</li>
-             <li>1 xícara de chá de chocolate em pó</li>
-             <li>1 colher (sopa) de fermento em pó</li>
-             <li>4 ovos</li>
-             <li>1 xícara de chá de óleo</li>
-             <li>1 xícara de chá de água quente</li>
-         </ul>
- 
-         <h3>Brigadeiro Mole</h3>
-         <ul>
-             <li>1 lata de leite condensado</li>
-             <li>1 colher (sopa) de chocolate em pó</li>
-             <li>1 colher (sopa) bem caprichada de manteiga</li>
-             <li>1 colher (chá) de mel</li>
-         </ul>
- 
-         <h3>Montagem</h3>
-         <ul>
-             <li>Massa</li>
-             <li>Brigadeiro preparado</li>
-             <li>2 caixinhas de morango</li>
-             <li>Granulado belga ao leite</li>
-         </ul>
-     </div>
- 
-     <div class="modo-de-preparo">
-         <h2>Modo de Preparo</h2>
- 
-         <h3>Massa de Chocolate (Sem Leite e Sem Manteiga)</h3>
-         <ol>
-             <li>Misture a farinha de trigo, o açúcar, o chocolate e o fermento em um recipiente.</li>
-             <li>Adicione os ovos e o óleo aos poucos e misture até ficar homogêneo.</li>
-             <li>Bata a mistura com um fouet (batedor de arame).</li>
-             <li>Coloque a massa em uma forma untada.</li>
-             <li>Leve ao forno preaquecido a 180°C por 40 minutos.</li>
-         </ol>
- 
-         <h3>Recheio</h3>
-         <ol>
-             <li>Misture todos os ingredientes do brigadeiro em uma panela funda.</li>
-             <li>Leve ao fogo e mexa constantemente até atingir o ponto de brigadeiro mole.</li>
-         </ol>
- 
-         <h3>Montagem</h3>
-         <ol>
-             <li>Pique alguns dos morangos.</li>
-             <li>Corte a massa em três camadas.</li>
-             <li>Recheie cada camada com o brigadeiro e os morangos picados.</li>
-             <li>Espalhe o brigadeiro por todo o bolo e cubra com granulado belga ao leite.</li>
-             <li>Enfeite a parte superior do bolo com os morangos inteiros.</li>
-         </ol>
-     </div>
-    </main>
-    <footer>
-      <p>&copy; 2024 Receitas Simples</p>
-    </footer>
-  </body>
-</html>
+  <main>
+    <h1>ESCOLHA SUA RECEITA</h1>
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receitas Simples</title>
-  </head>
-  <body>
-    <header>
-      <h1>Receitas Simples</h1>
-<h2>Adicionar novas receitas</h2>
-      <form action="#" method="post">
-                <label for="nome">Nome da Receita:</label>
-                <input type="text" id="nome" name="nome" required><br>
-                <br>
-                <label for="tempo">Tempo de Preparo:</label>
-                <textarea id="tempo" id="tempo" name="tempo" required></textarea><br>
-                <br>
-                <label for="image">Foto da Receita:</label>
-                <input type="file" id="image" name="image" accept="image/*"><br>
-                <br>
-                <label for="ingredientes">Ingredientes:</label><br>
-                <textarea id="ingredientes" name="ingredientes" rows="12" cols="70" placeholder="Digite os ingredientes..." required></textarea><br>
-                <br>
-                <label for="preparo">Modo de Preparo:</label><br>
-                <textarea id="preparo" name="preparo" rows="25" cols="80" placeholder="Digite o modo de preparo..." required></textarea><br>
-            
-                <input type="submit" value="Adicionar Receita">
-            </form>
-  </body>
-</html>
+    <section class="categorias">
+      <div class="categoria">
+        <a href="aves.html" class="categoria-btn">Aves</a>
+        <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_350,h_215/https://www.receitadahora.com/wp-content/uploads/2019/11/frango-1.jpg" alt="aves">
+      </div>
+      <div class="categoria">
+        <a href="bolos.html" class="categoria-btn">Bolos e Tortas</a>
+        <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_350,h_215/https://www.receitadahora.com/wp-content/uploads/2019/11/bolo-2.jpg" alt="bolos">
+      </div>
+      <div class="categoria">
+        <a href="carnes.html" class="categoria-btn">Carnes</a>
+        <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_350,h_215/https://www.receitadahora.com/wp-content/uploads/2019/11/carnes-1.jpg" alt="carnes">
+      </div>
+      <div class="categoria">
+        <a href="docesobremesas.html" class="categoria-btn">Doces e Sobremesas</a>
+        <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_350,h_215/https://www.receitadahora.com/wp-content/uploads/2019/11/doces-e-sobremesas.jpg" alt="doces e sobremesas">
+      </div>
+      <div class="categoria">
+        <a href="lanches.html" class="categoria-btn">Lanches</a>
+        <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_350,h_215/https://www.receitadahora.com/wp-content/uploads/2019/11/lanches-2.jpg" alt="lanches">
+      </div>
+      <div class="categoria">
+        <a href="massas.html" class="categoria-btn">Massas</a>
+        <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_350,h_215/https://www.receitadahora.com/wp-content/uploads/2019/11/massas-1.jpg" alt="massas">
+      </div>
+      <div class="ultima">
+        <a href="peixes.html" class="categoria-btn">Peixes e Frutos do Mar</a>
+        <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_350,h_215/https://www.receitadahora.com/wp-content/uploads/2019/11/peixes-min.jpg" alt="peixes e frutos do mar">
+      </div>
+    </section>
+<hr>
+    <h1>RECEITAS FÁCEIS</h1>
+
+    <section class="receitas-faceis">
+      <div class="receita">
+        <a href="tilapia.html" class="receita-btn2">Tilápia Assada no Forno</a>
+        <img src="https://vonaoca.com.br/wp-content/uploads/2023/04/tilapia-assada-no-forno.jpg.webp" alt="tilapia">
+      </div>
+      <div class="receita">
+        <a href="picanha.html" class="receita-btn2">Picanha ao Alho</a>
+        <img src="https://s2-receitas.glbimg.com/owZHMHCYehmdf2XGs9bFYgoCeuI=/0x0:995x571/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/E/B/CkKfdMSp2kcVDVE2Reaw/picanha-com-crosta-de-alho.jpg" alt="picanha">
+      </div>
+      <div class="receita">
+        <a href="espaguete.html" class="receita-btn2">Espaguete à Carbonara</a>
+        <img src="https://s2-receitas.glbimg.com/5Pp_gEu9yi6OmY5VJY9c49M96iw=/0x0:1000x662/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/z/8/yNLlaeSCmg8mUw6AIvMg/espaguete-a-carbonara.jpg" alt="espaguete">
+      </div>
+      <div class="receita">
+        <a href="sanduiche.html" class="receita-btn2">Sanduíche Natural de Frango</a>
+        <img src="https://www.saboresajinomoto.com.br/uploads/images/recipes/sanduiche-natural-de-frango.jpg" alt="sanduiche">
+      </div>
+      <div class="receita">
+        <a href="tortalimao.html" class="receita-btn2">Torta de Limão com Merengue</a>
+        <img src="https://s2-receitas.glbimg.com/GCZ_Y09CAk_RAxmNX93U3oU2rM4=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/3/Q/3M2V5AR3yoHZNGYPDpHQ/torta-de-limao-e-merengue.jpg" alt="torta de limão">
+      </div>
+      <div class="receita">
+        <a href="strogonoffrango.html" class="receita-btn2">Strogonoff de Frango</a>
+        <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_392,h_261/https://www.receitadahora.com/wp-content/uploads/2021/05/Estrogonofe-saudavel-392x261.jpg" alt="strogonoff">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; 2024 - Receitas Simples</p>
+  </footer>
