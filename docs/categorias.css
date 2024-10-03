@@ -130,7 +130,7 @@ footer {
 
 @media (min-width: 2560px) {
   body {
-    font-size: 18px; 
+    font-size: 35px; 
     margin: 0; 
     padding: 0; 
   }
@@ -162,7 +162,7 @@ footer {
 
 @media (min-width: 1600px) and (max-width: 2559px) {
   body {
-    font-size: 16px; 
+    font-size: 30px; 
     margin: 0; 
     padding: 0; 
   }
@@ -194,7 +194,7 @@ footer {
 
 @media (min-width: 1024px) and (max-width: 1599px) {
   body {
-    font-size: 15px; 
+    font-size: 30px; 
     margin: 0; 
     padding: 0; 
   }
@@ -226,7 +226,7 @@ footer {
 
 @media (max-width: 1024px) {
   body {
-    font-size: 14px; 
+    font-size: 30px; 
     margin: 0; 
     padding: 0;
   }
@@ -265,7 +265,7 @@ footer {
 
 @media (max-width: 768px) {
   body {
-    font-size: 12px; 
+    font-size: 30px; 
     margin: 0; 
     padding: 0; 
   }
