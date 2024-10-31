@@ -1,169 +1,171 @@
-body{
-    font-family: 'Helvetica', Arial;
-  }
-  h1{
-    text-align:center;
-  }
-  h2{
-    text-align:center;
-  }
-  main{
+main{
     background-color:lightcyan;
-    padding-top:0px;
-  }
-  form{
-    max-width: 800px;
-    margin: 30px auto;
-    border-radius: 10px;
-  }
-  .nome input[type="text"]{
-    border:2px solid black;
-    border-radius:5px;
-    width:500px;
-    height:20px;
-  }
-  label{
+    padding-top:0;
+}
+h1{
+    font-size:2vw;
+    text-align:center;
+}
+.section{
+    background-color: #e0f7fa;
+    margin-left: 30rem; 
+    margin-right: 30rem; 
+    margin-bottom: 20rem; 
+    border-radius: 10rem; 
+}
+h2{
+    font-size:1.5vw;
+    text-align:center;
+}
+form{
+    max-width:50vw;
+    margin: 30rem auto;
+    border-radius: 10rem;
+}
+h3{
+    font-size:1.25vw;
+}
+.nome input[type="text"]{
+    border:2rem solid black;
+    border-radius:5rem;
+    width:36vw;
+    height:2.2vh;
+}
+label{
+    font-size:1.25vw;
     font-weight:bold;
-  }
-  input[type="number"]{
-    border-radius:5px;
-    border:2px solid black;
-    width:30px;
-  }
-  select{
-    border:2px solid black;
-    border-radius:5px;
+}
+input[type="number"]{
+    border-radius:5rem;
+    border:2rem solid black;
+    max-width:1.875vw;
+}
+select{
+    font-size:1vw;
+    border:2rem solid black;
+    border-radius:5rem;
     font-weight:bold;
-  }
-  textarea{
-    border:2px solid black;
-    border-radius:5px;
-    width:700px;
-    height:200px;
-  }
-  footer{
+}
+input[type="file"]{
+    font-size:1vw;
+}
+textarea{
+    font-size:1vw;
+    border:2rem solid black;
+    border-radius:5rem;
+    max-width:43.75vw;
+    max-height:22.2vh;
+}
+button{
+    font-size:1vw;
+    font-weight:bold;
     background-color:white;
-  }  
+    color:black;
+    border-radius:5rem;
+}
+
+
+@media (max-width: 420px) {
+    body {
+      font-size: 2.5vw; 
+    }
   
-@media (min-width: 2560px) {
-  body {
-    font-size: 35px; 
+    h1 {
+      font-size: 5vw; 
+      padding-top: 2rem;
+    }
+  
+    h2, h3 {
+      font-size: 4vw; 
+      text-align: center;
+    }
+  
+    .section {
+      margin: 5rem; 
+      border-radius: 5rem; 
+    }
+  
+    form {
+      max-width: 90vw; 
+      margin: 5rem auto; 
+      padding: 2rem;
+    }
+  
+    .nome input[type="text"],
+    input[type="number"],
+    select,
+    input[type="file"],
+    textarea {
+      width: 90vw;
+      max-width: 90vw;
+      font-size: 3.5vw; 
+      height: auto;
+    }
+   
+    label {
+        font-size:3vw;
+    }
+
+    input[type="number"] {
+      max-width: 20vw; 
+    }
+  
+    textarea {
+      max-height: 40vh; 
+    }
+  
+    button {
+      font-size: 4vw; 
+      padding: 2rem 4rem; 
+    }
+  
+    .cima {
+      flex-direction: column;
+      align-items: center;
+      padding: 0; 
+    }
+  
+    .logo img {
+      max-width: 50vw; 
+      height: auto;
+    }
+  
+    .search-form input {
+      width: 80vw;
+      height: auto;
+      padding: 2rem;
+    }
+  
+    .search-form button {
+      width: 20vw; 
+      height: auto;
+    }
+  
+    .user-icon img {
+      max-width: 15vw; 
+    }
+  
+    .menu-categorias {
+      flex-direction: column;
+      gap: 2rem; 
+      align-items: center;
+    }
+  
+    .menu-categorias a {
+      width: 80vw; 
+      text-align: center;
+      font-size: 3.5vw; 
+      padding: 1rem;
+    }
+  
+    .adicionar-btn {
+      font-size: 4vw; 
+      padding: 2rem 4rem; 
+    }
+  
+    footer p {
+      font-size: 3.5vw; 
+      padding: 2rem 0;
+    }
   }
   
-  form {
-    max-width: 1200px; 
-  }
-
-  .nome input[type="text"], textarea {
-    width: 600px; 
-  }
-
-  input[type="number"] {
-    width: 40px; 
-  }
-  footer {
-    padding: 60px 0; 
-    font-size: 35px; 
-  }
-}
-
-
-@media (min-width: 1600px) and (max-width: 2559px) {
-  body {
-    font-size: 16px; 
-  }
-
-  form {
-    max-width: 1000px;
-  }
-
-  .nome input[type="text"], textarea {
-    width: 550px; 
-  }
-
-  input[type="number"] {
-    width: 35px; 
-  }
-}
-
-
-@media (min-width: 1024px) and (max-width: 1599px) {
-  body {
-    font-size: 15px; 
-  }
-
-  form {
-    max-width: 800px; 
-    margin: 20px auto;
-  }
-
-  .nome input[type="text"], textarea {
-    width: 500px; 
-  }
-
-  input[type="number"] {
-    width: 30px; 
-  }
-}
-
-
-@media (max-width: 1024px) {
-  body {
-    font-size: 14px; 
-  }
-
-  form {
-    max-width: 90%; 
-  }
-
-  .nome input[type="text"], textarea {
-    width: 100%; 
-  }
-
-  input[type="number"] {
-    width: 25px; 
-  }
-}
-
-
-@media (max-width: 768px) {
-  body {
-    font-size: 12px; 
-  }
-
-  form {
-    margin: 15px; 
-  }
-
-  .nome input[type="text"], textarea {
-    width: 100%;
-    height: auto; 
-  }
-
-  input[type="number"] {
-    width: 20px; 
-  }
-}
-
-
-@media (max-width: 480px) {
-  body {
-    font-size: 11px; 
-  }
-
-  form {
-    margin: 10px; 
-  }
-
-  .nome input[type="text"], textarea {
-    width: 100%; 
-  }
-
-  input[type="number"] {
-    width: 20px;
-  }
-
-  select {
-    width: 100%; 
-  }
-}
