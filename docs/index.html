@@ -2,8 +2,9 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas Simples</title>
+    <link rel="stylesheet"  href="comum.css">
     <link rel="stylesheet"  href="homepage.css">
   </head>
 <body>
@@ -16,8 +17,9 @@
     
     <nav class="navbar">
     <form action="#" class="search-form" method="get">
-        <input type="text" name="search-form" id="search-form" placeholder="Buscar receitas..." />
+        <input type="text" name="search-form" id="search-form" placeholder="Buscar receitas...">
         <button type="submit">Buscar</button>
+        <div id="suggestions" class="suggestions"></div>
       </form>
       </nav>
       
@@ -26,16 +28,13 @@
           <img src="https://icons.iconarchive.com/icons/fa-team/fontawesome/256/FontAwesome-Circle-User-icon.png" alt="user-icon">
         </a>
       </div>
-      
-      </nav>
+    
     <a href="adicionar.html" class="adicionar-btn">Adicionar novas receitas</a>
-    </nav>
     </div>
     
     <hr>
     
       <div class="baixo">
-      <nav class="navbar1">
       <div class="menu-categorias">
         <a href="carnes.html" class="categoria-btn">Carnes</a>
         <a href="bolos.html" class="categoria-btn">Bolos e Tortas</a>
@@ -88,7 +87,7 @@
       <div class="ultima">
       <div class="categoria">
         <a href="peixes.html" class="categoria-btn">Peixes e Frutos do Mar</a>
-        <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_350,h_215/https://www.receitadahora.com/wp-content/uploads/2019/11/peixes-min.jpg" alt="peixes e frutos do mar">
+        <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_350,h_215/https://www.receitadahora.com/wp-content/uploads/2019/11/peixes-min.jpg" alt="ultimaimg">
       </div>
       </div>
       </section> 
@@ -127,10 +126,13 @@
       </div>
       </div>
       </section>
-      
+       <hr>
+       
   </main>
 
   <footer>
-    <hr>
     <p>&copy; 2024 - Receitas Simples</p>
   </footer>
+  
+</body>
+</html>
