@@ -2,8 +2,9 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas Simples</title>
+    <link rel="stylesheet"  href="comum.css">
     <link rel="stylesheet"  href="receitas.css">
   </head>
 <body>
@@ -60,11 +61,21 @@
 <div class="imagem">
     <img src="https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_392,h_261/https://www.receitadahora.com/wp-content/uploads/2021/05/Estrogonofe-saudavel-392x261.jpg"  alt="strogonoff de frango">
 </div>
+
+<div class="icones">
+  <div class="icones1">
+    <img src="https://static-00.iconduck.com/assets.00/share-icon-2048x1911-60w04qpe.png" alt="share-icon">
+    </div>
+    <div class="icones2">
+    <img src="https://static.thenounproject.com/png/4972209-200.png" alt="save-icon">
+    </div>
+</div>
+
 <div class="descricao">
     <p>A receita de strogonoff de frango é a melhor relíquia dos brasileiros. Preparada de forma diferente em cada canto do Brasil, apesar dos seus temperos, sua base é sempre igual! Essa deliciosa receita de strogonoff de frango irá te surpreender em sabor e com certeza um dos melhores a se provar. Em suma, aprenda a preparar receita de strogonoff de frango e delicie-se!</p>
 </div>
 <div class="ingredientes">
-    <h3>Ingredientes</h3>
+    <h2>Ingredientes</h2>
     <ul>
         <li>1/2 Cebola pequena picada</li>
         <li>3 dentes de alho picado</li>
@@ -80,7 +91,7 @@
 </div>
 
 <div class="modo-de-preparo">
-    <h3>Modo de Preparo</h3>
+    <h2>Modo de Preparo</h2>
     <ol>
         <li>Numa panela, em fogo médio, refogue a cebola e o alho.</li>
         <li>Em seguida adicione o frango, a pimenta do reino e o sal. Mexa de vez em quando até selar o frango.</li>
@@ -88,6 +99,22 @@
         <li>Desligue o fogo e sirva em seguida.</li>
     </ol>
 </div>
+
+<div class="comentarios-section">
+    <h2>Comentários</h2>
+    <form class="comentario-form">
+        <textarea name="comentario" id="comentario" placeholder="Deixe seu comentário aqui..." required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <div class="lista-comentarios">
+        <h4>Comentários Anteriores:</h4>
+        <ul id="comentarios">
+            <!-- Os comentários aparecerão aqui -->
+        </ul>
+    </div>
+</div>
+
 <hr>
 </main>
 
