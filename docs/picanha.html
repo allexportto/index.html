@@ -2,8 +2,9 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas Simples</title>
+    <link rel="stylesheet"  href="comum.css">
     <link rel="stylesheet"  href="receitas.css">
   </head>
 <body>
@@ -62,11 +63,21 @@
 <div class="imagem">
     <img src="https://s2-receitas.glbimg.com/owZHMHCYehmdf2XGs9bFYgoCeuI=/0x0:995x571/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/E/B/CkKfdMSp2kcVDVE2Reaw/picanha-com-crosta-de-alho.jpg"  alt="Picanha ao Alho">
 </div>
+
+<div class="icones">
+  <div class="icones1">
+    <img src="https://static-00.iconduck.com/assets.00/share-icon-2048x1911-60w04qpe.png" alt="share-icon">
+    </div>
+    <div class="icones2">
+    <img src="https://static.thenounproject.com/png/4972209-200.png" alt="save-icon">
+    </div>
+</div>
+
 <div class="descricao">
     <p>A picanha ao alho é um prato clássico que traz todo o sabor e suculência da carne, combinado com o aroma irresistível do alho. Ideal para churrascos ou jantares especiais, é uma receita simples que agrada a todos.</p>
 </div>
 <div class="ingredientes">
-    <h3>Ingredientes</h3>
+    <h2>Ingredientes</h2>
     <ul>
         <li>1 peça de picanha (cerca de 1,2kg)</li>
         <li>5 dentes de alho picados</li>
@@ -77,7 +88,7 @@
 </div>
 
 <div class="modo-de-preparo">
-    <h3>Modo de Preparo</h3>
+    <h2>Modo de Preparo</h2>
     <ol>
         <li>Preaqueça a churrasqueira ou forno a 200°C.</li>
         <li>Faça pequenos cortes na superfície da picanha e esfregue o alho picado nos dois lados.</li>
@@ -87,6 +98,22 @@
         <li>Retire do forno ou churrasqueira, deixe a carne descansar por 10 minutos antes de fatiar e servir.</li>
     </ol>
 </div>
+
+<div class="comentarios-section">
+    <h2>Comentários</h2>
+    <form class="comentario-form">
+        <textarea name="comentario" id="comentario" placeholder="Deixe seu comentário aqui..." required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <div class="lista-comentarios">
+        <h4>Comentários Anteriores:</h4>
+        <ul id="comentarios">
+            <!-- Os comentários aparecerão aqui -->
+        </ul>
+    </div>
+</div>
+
 <hr>
     </main>
 
