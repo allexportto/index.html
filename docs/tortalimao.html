@@ -2,8 +2,9 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas Simples</title>
+    <link rel="stylesheet"  href="comum.css">
     <link rel="stylesheet"  href="receitas.css">
   </head>
 <body>
@@ -60,23 +61,33 @@
 <div class="imagem">
     <img src="https://s2-receitas.glbimg.com/GCZ_Y09CAk_RAxmNX93U3oU2rM4=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/3/Q/3M2V5AR3yoHZNGYPDpHQ/torta-de-limao-e-merengue.jpg"  alt="Torta de Limão com Merengue">
 </div>
+
+<div class="icones">
+  <div class="icones1">
+    <img src="https://static-00.iconduck.com/assets.00/share-icon-2048x1911-60w04qpe.png" alt="share-icon">
+    </div>
+    <div class="icones2">
+    <img src="https://static.thenounproject.com/png/4972209-200.png" alt="save-icon">
+    </div>
+</div>
+
 <div class="descricao">
     <p>A Torta de Limão com Merengue é uma sobremesa leve e refrescante. Com uma base crocante de biscoito, recheio cremoso de limão e uma cobertura suave de merengue dourado, essa torta é perfeita para qualquer ocasião. Aprenda a fazer essa delícia em poucos passos!</p>
 </div>
 <div class="ingredientes">
-    <h3>Ingredientes</h3>
-    <h4>Para a Massa</h4>
+    <h2>Ingredientes</h2>
+    <h3>Para a Massa</h3>
     <ul>
         <li>200g de biscoito maisena</li>
         <li>100g de manteiga derretida</li>
     </ul>
-    <h4>Para o Recheio</h4>
+    <h3>Para o Recheio</h3>
     <ul>
         <li>1 lata de leite condensado</li>
         <li>1/2 xícara de suco de limão</li>
         <li>Raspas de 1 limão</li>
     </ul>
-    <h4>Para o Merengue</h4>
+    <h3>Para o Merengue</h3>
     <ul>
         <li>3 claras de ovo</li>
         <li>1 xícara de açúcar</li>
@@ -84,21 +95,21 @@
 </div>
 
 <div class="modo-de-preparo">
-    <h3>Modo de Preparo</h3>
-    <h4>Massa</h4>
+    <h2>Modo de Preparo</h2>
+    <h3>Massa</h3>
     <ol>
         <li>Triture os biscoitos maisena no processador até virar uma farofa.</li>
         <li>Misture com a manteiga derretida até formar uma massa homogênea.</li>
         <li>Forre o fundo e as laterais de uma forma de torta com a massa. Leve ao forno preaquecido a 180°C por 10 minutos e reserve.</li>
     </ol>
 
-    <h4>Recheio</h4>
+    <h3>Recheio</h3>
     <ol>
         <li>Misture o leite condensado com o suco de limão e as raspas, mexendo até ficar cremoso.</li>
         <li>Despeje o recheio sobre a massa já assada e reserve.</li>
     </ol>
 
-    <h4>Merengue</h4>
+    <h3>Merengue</h3>
     <ol>
         <li>Bata as claras em neve e adicione o açúcar aos poucos, até formar picos firmes.</li>
         <li>Cubra a torta com o merengue, espalhando bem.</li>
@@ -106,7 +117,23 @@
         <li>Retire do forno, deixe esfriar e leve à geladeira por pelo menos 2 horas antes de servir.</li>
     </ol>
 </div>
-<hr>
+
+<div class="comentarios-section">
+    <h2>Comentários</h2>
+    <form class="comentario-form">
+        <textarea name="comentario" id="comentario" placeholder="Deixe seu comentário aqui..." required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <div class="lista-comentarios">
+        <h4>Comentários Anteriores:</h4>
+        <ul id="comentarios">
+            <!-- Os comentários aparecerão aqui -->
+        </ul>
+    </div>
+</div>
+
+    <hr>
     </main>
    
     <footer>
